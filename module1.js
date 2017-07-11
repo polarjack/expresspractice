@@ -1,4 +1,6 @@
-var moduleX = require('./mainModule')
+var mod = require('./mainModule')
 
-moduleX.currentUrl = 'http://google.com'
-console.log('current url =>' + moduleX.currentUrl)
+var node = new mod()
+
+node.name('fuck', 'you');
+node.consoleLog();

@@ -1,2 +1,6 @@
-var moduleX = require('./mainModule')
-console.log('current url => ' + moduleX.currentUrl)
+var mod = require('./mainModule')
+
+var node = new mod()
+
+node.name('ass', 'hole');
+node.consoleLog();

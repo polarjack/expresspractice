@@ -1,0 +1,23 @@
+{
+  "name": "expresspractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polarjack/expresspractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polarjack/expresspractice/issues"
+  },
+  "homepage": "https://github.com/polarjack/expresspractice#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
